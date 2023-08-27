@@ -10,3 +10,4 @@ jobs:
           echo "hello wolrd"
       - name: this will fail
         run: exit 1;
+          echo "hello wolrd ！"
