@@ -1,4 +1,4 @@
 # cicd
 cicd
 
-These are rescource for wandb cicd and ML course
+These are rescource for wandb CI/CD and ML course.
