@@ -17,6 +17,6 @@ jobs:
           ls ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
       - name: see payload # this step is for debugging purposes only, so you can see the payload. 
-      - run: echo "PAYLOAD:\n${PAYLOAD}\n"
-      env:
-        PAYLOAD: ${{ toJSON(github.event) }}
+        run: echo "PAYLOAD:\n${PAYLOAD}\n"
+        env:
+          PAYLOAD: ${{ toJSON(github.event) }}
